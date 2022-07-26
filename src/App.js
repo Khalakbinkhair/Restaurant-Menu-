@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import { useState } from 'react';
+
 
 function App() {
   return (
@@ -20,6 +23,7 @@ function App() {
       </header>
     </div>
   );
+  
 }
 
 export default App;
