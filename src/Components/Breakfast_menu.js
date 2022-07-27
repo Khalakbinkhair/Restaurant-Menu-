@@ -4,24 +4,13 @@ import { Link } from "react-router-dom";
 
 
 
-const Coffee_menu = (props) => {
+const Breakfast_menu = (props) => {
     return (
         <div>
-
-
-
             <div class="card body ">
                 <Link to={props.urlname} className="link" >{props.name}</Link>
             </div>
-
-
-
-
-
         </div>
-
-
-
     )
 }
-export default Coffee_menu;
+export default Breakfast_menu;

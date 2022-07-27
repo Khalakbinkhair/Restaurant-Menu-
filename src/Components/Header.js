@@ -3,22 +3,22 @@ import '../Assets/css/style.css'
 import backgroundpic from '../Assets/images/restrologo.jpg';
 import spoonlogo from '../Assets/images/spoonlogo.png';
 
-const Header=()=>{
-     
+const Header = () => {
 
-    return(
+
+    return (
         <div>
 
-<div className="home-background">
-    <img src={backgroundpic}/>
-    </div>
+            <div className="home-background">
+                <img src={backgroundpic} />
+            </div>
 
-    <div className="spoon-logo">
-    <img src={spoonlogo}/>
-    </div>
-    
+            <div className="spoon-logo">
+                <img src={spoonlogo} />
+            </div>
 
-</div>
+
+        </div>
     )
 }
 export default Header;

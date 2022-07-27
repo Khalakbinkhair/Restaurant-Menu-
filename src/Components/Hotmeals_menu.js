@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 
-const Coffee_menu = (props) => {
+const Hotmeals_menu = (props) => {
     return (
         <div>
 
@@ -24,4 +24,4 @@ const Coffee_menu = (props) => {
 
     )
 }
-export default Coffee_menu;
+export default Hotmeals_menu;

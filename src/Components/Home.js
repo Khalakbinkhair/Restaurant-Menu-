@@ -1,7 +1,4 @@
 import React from 'react'
-import backgroundpic from '../Assets/images/restrologo.jpg';
-import spoonlogo from '../Assets/images/spoonlogo.png';
-
 import Card from './Card'
 
 

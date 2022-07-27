@@ -1,20 +1,11 @@
 import React from 'react'
 import '../Assets/css/style.css'
-import Coffee_menu from './Coffee_menu';
-import Coffee_details from './Coffee_details';
-
+import Dessert_menu from './Dessert_menu';
 import { Link } from "react-router-dom";
-
-
-const Coffee = () => {
-
+const Dessert = () => {
 
     return (
         <div>
-
-
-
-
             <div class="container fluid">
                 <div class="row justify-content-center">
                     <div class="col-md-8 text-center">
@@ -38,96 +29,86 @@ const Coffee = () => {
 
                                 </div>
 
+                                <hr/>
+                                    <b>DESSERT</b>
                                     <hr/>
-                                    <b>COFFEE ITEM</b>
-                                    <hr/>
-
 
 
 
                                 <div class='row' >
                                     <div class="col-md-4 " style={{ "padding": "1rem" }}>
                                         <div class="card body ">
-                                            <Coffee_menu urlname="/Caffe_Latte" className="link" name="CAFFÈ LATTE" />
+                                            <Dessert_menu urlname="/brownie" className="link" name="Brownie" />
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 " style={{ "padding": "1rem" }}>
                                         <div class="card body ">
-                                            <Coffee_menu urlname="/Caffe_Mocha" className="link" name="CAFFÈ MOCHA" />
+                                            <Dessert_menu urlname="/Caffe_Mocha" className="link" name="CAFFÈ MOCHA" />
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 " style={{ "padding": "1rem" }}>
                                         <div class="card body ">
-                                            <Coffee_menu urlname="/Cafe_au_lait" className="link" name="CAFÈ AU LAIT" />
+                                            <Dessert_menu urlname="/Cafe_au_lait" className="link" name="CAFÈ AU LAIT" />
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 " style={{ "padding": "1rem" }}>
                                         <div class="card body ">
-                                            <Coffee_menu urlname="/Cappuccino" className="link" name="CAPPUCCINO" />
+                                            <Dessert_menu urlname="/Cappuccino" className="link" name="CAPPUCCINO" />
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 " style={{ "padding": "1rem" }}>
                                         <div class="card body ">
-                                            <Coffee_menu urlname="/Double_espresso_(doppio)" className="link" name="DOUBLE ESPRESSO" />
+                                            <Dessert_menu urlname="/Double_espresso_(doppio)" className="link" name="DOUBLE ESPRESSO" />
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 " style={{ "padding": "1rem" }}>
                                         <div class="card body ">
-                                            <Coffee_menu urlname="/Espresso" className="link" name="ESPRESSO" />
+                                            <Dessert_menu urlname="/Espresso" className="link" name="ESPRESSO" />
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 " style={{ "padding": "1rem" }}>
                                         <div class="card body ">
-                                            <Coffee_menu urlname="/Espresso_con_panna" className="link" name="ESPRESSO CON PANNA" />
+                                            <Dessert_menu urlname="/Espresso_con_panna" className="link" name="ESPRESSO CON PANNA" />
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 " style={{ "padding": "1rem" }}>
                                         <div class="card body ">
-                                            <Coffee_menu urlname="/Espresso_macchiato" className="link" name="ESPRESSO MACCHIATO " />
+                                            <Dessert_menu urlname="/Espresso_macchiato" className="link" name="ESPRESSO MACCHIATO " />
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 " style={{ "padding": "1rem" }}>
                                         <div class="card body ">
-                                            <Coffee_menu urlname="/Flat_white" className="link" name="FLAT WHITE " />
+                                            <Dessert_menu urlname="/Flat_white" className="link" name="FLAT WHITE " />
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 " style={{ "padding": "1rem" }}>
                                         <div class="card body ">
-                                            <Coffee_menu urlname="/Frappe" className="link" name="FRAPPÉ" />
+                                            <Dessert_menu urlname="/Frappe" className="link" name="FRAPPÉ" />
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 " style={{ "padding": "1rem" }}>
                                         <div class="card body ">
-                                            <Coffee_menu urlname="/Iced_mocha" className="link" name="ICED MOCHA" />
+                                            <Dessert_menu urlname="/Iced_mocha" className="link" name="ICED MOCHA" />
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 " style={{ "padding": "1rem" }}>
                                         <div class="card body ">
-                                            <Coffee_menu urlname="/Latte_macchiato" className="link" name="LATTE MACCHIATO" />
+                                            <Dessert_menu urlname="/Latte_macchiato" className="link" name="LATTE MACCHIATO" />
                                         </div>
                                     </div>
-
-                                 
-
-                                 
-
-                                   
-
 
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
@@ -144,4 +125,4 @@ const Coffee = () => {
 
     )
 }
-export default Coffee;
+export default Dessert;

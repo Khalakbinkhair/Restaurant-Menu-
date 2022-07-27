@@ -1,10 +1,12 @@
 import React from 'react'
 import '../Assets/css/style.css'
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 
 
 const Menu_card=(props)=>{
+ 
+  
     return(
 <div>
 
